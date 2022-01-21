@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="task" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background: rgb(238, 238, 238);
+  margin: 5px 0 22px 0;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btn {
+  background-color: teal;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+</style>
+</head>
+<body>
+
+<form action="register.php" method="post">
+  <div class="container">
+    <h1>Registracija</h1>
+
+    <label for="email"><b>E-mail</b></label>
+    <input type="text" placeholder="Unesite e-mail" name="email" id="email" required>
+
+    <label for="psw"><b>Zaporka</b></label>
+    <input type="password" placeholder="Unesite zaporku" name="psw" id="psw" required>
+
+
+    <button type="submit" class="btn">Registriraj se</button>
+  </div>
+
+</form>
+
+<form action="log.php" method="post">
+
+  <div class="container">
+
+    <h1>Prijava</h1>
+
+    <label for="email2"><b>E-mail</b></label>
+    <input type="text" placeholder="Unesite e-mail" name="email2" id="email2" required>
+
+    <label for="psw2"><b>Zaporka</b></label>
+    <input type="password" placeholder="Unesite zaporku" name="psw2" id="psw2" required>
+
+
+    <button type="submit" class="btn">Prijavi se</button>
+  </div>
+  
+</form>
+
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+</iframe>
+
+<a href="https://github.com/FrZak/WA_projekt">Moj Github projekt</a>
+
+
+</body>
+</html>
+

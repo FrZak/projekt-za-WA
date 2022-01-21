@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<users>
+ <user>
+  <email>m@gmail.com</email>
+  <password>sifra</password>
+ </user>
+ <user>
+  <email>ma@gmail.com</email>
+  <password>sifra2</password>
+ </user>
+<user><email>marjo</email><password>janko</password></user><user><email>novi</email><password>novi</password></user><user><email>test</email><password>test</password></user></users>
